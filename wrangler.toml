@@ -1,5 +1,12 @@
 
 name = "swiftrootbus"
-main = "dist/_worker.js"
-compatibility_date = "2024-11-24"
-compatibility_flags = ["nodejs_compat"]
+main = "dist/index.js"
+compatibility_date = "2025-11-24"
+type = "javascript"
+
+[compatibility_flags]
+flags = ["nodejs_compat"]  # Needed if using sharp or Node built-ins
+
+[site]
+bucket = "./dist/assets"
+entry-point = "workers-site"
