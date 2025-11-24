@@ -39,10 +39,8 @@
     "@radix-ui/react-toggle": "^1.1.0",
     "@radix-ui/react-toggle-group": "^1.1.0",
     "@radix-ui/react-tooltip": "^1.1.2",
-    "@types/node": "20.6.2",
     "@types/react": "18.2.22",
     "@types/react-dom": "18.2.7",
-    "astro": "^5.15.9",
     "autoprefixer": "10.4.15",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
@@ -71,6 +69,17 @@
   "devDependencies": {
     "@astrojs/cloudflare": "^12.6.11",
     "@astrojs/ts-plugin": "^1.10.5",
+    "@types/babel__core": "^7.20.5",
+    "@types/babel__generator": "^7.27.0",
+    "@types/babel__template": "^7.4.4",
+    "@types/babel__traverse": "^7.28.0",
+    "@types/estree": "^1.0.8",
+    "@types/hast": "^3.0.4",
+    "@types/mdast": "^4.0.4",
+    "@types/nlcst": "^2.0.3",
+    "@types/node": "^24.10.1",
+    "@types/unist": "^3.0.3",
+    "astro": "^5.16.0",
     "typescript": "^5.9.3",
     "wrangler": "^4.50.0"
   }
