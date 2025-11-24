@@ -9,7 +9,6 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "^12.6.11",
     "@astrojs/react": "^4.4.2",
     "@astrojs/tailwind": "^6.0.2",
     "@hookform/resolvers": "^3.9.0",
@@ -70,7 +69,9 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@astrojs/cloudflare": "^12.6.11",
     "@astrojs/ts-plugin": "^1.10.5",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "wrangler": "^4.50.0"
   }
 }

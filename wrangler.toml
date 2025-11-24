@@ -1,4 +1,5 @@
 
-name = "my-astro-worker"
+name = "swiftrootbus"
 main = "dist/_worker.js"
-compatibility_date = "2025-11-24"
+compatibility_date = "2024-11-24"
+compatibility_flags = ["nodejs_compat"]
