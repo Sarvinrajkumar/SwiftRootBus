@@ -1,8 +1,6 @@
 
 name = "swiftrootbus"
-main = "workers-site/index.js"   # Entry point for your worker
-type = "javascript"              # or "modules" depending on Astro setup
-
+main = "dist/index.js"  # <-- match Astro Cloudflare adapter output
+compatibility_flags = ["nodejs_compat"]
 account_id = "6c225d7b23f6ee9825b9ae4ca57afd1b"
 workers_dev = true
-compatibility_flags = ["nodejs_compat"]  # required for node built-ins like 'fs' or 'child_process'
