@@ -1,0 +1,16 @@
+import{j as e}from"./jsx-runtime.DkOHlzxH.js";import{C as r}from"./constants.Df0Tr3fE.js";import{c as s}from"./createLucideIcon.yS3msH7u.js";import"./index.Mb_WXnyo.js";/**
+ * @license lucide-react v0.446.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const l=s("Facebook",[["path",{d:"M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z",key:"1jg4f8"}]]);/**
+ * @license lucide-react v0.446.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const i=s("Linkedin",[["path",{d:"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z",key:"c2jq9f"}],["rect",{width:"4",height:"12",x:"2",y:"9",key:"mk3on5"}],["circle",{cx:"4",cy:"4",r:"2",key:"bt5ra8"}]]);/**
+ * @license lucide-react v0.446.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const n=s("Twitter",[["path",{d:"M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z",key:"pff0z6"}]]);function x(){const t=[{href:"#routes",label:"Popular Routes"},{href:"#amenities",label:"Amenities"},{href:"#planner",label:"Trip Planner"},{href:"#support",label:"Support"}];return e.jsx("footer",{className:"bg-white py-12 border-t border-gray-100",children:e.jsxs("div",{className:"container mx-auto",children:[e.jsxs("div",{className:"grid grid-cols-1 md:grid-cols-3 gap-8",children:[e.jsxs("div",{children:[e.jsx("h3",{className:"text-2xl font-bold text-charcoal mb-4",children:r.name}),e.jsx("p",{className:"text-gray-600 mb-4 max-w-md",children:r.tagline})]}),e.jsxs("div",{children:[e.jsx("h4",{className:"text-lg font-semibold mb-4",children:"Quick Links"}),e.jsx("ul",{className:"space-y-2",children:t.map(a=>e.jsx("li",{children:e.jsx("a",{href:a.href,className:"text-gray-600 hover:text-brand transition-colors",children:a.label})},a.href))})]}),e.jsxs("div",{children:[e.jsx("h4",{className:"text-lg font-semibold mb-4",children:"Contact Information"}),e.jsxs("address",{className:"not-italic text-gray-600 space-y-2",children:[e.jsxs("p",{children:["Phone: ",r.phone]}),e.jsxs("p",{children:["Email: ",r.email]}),e.jsx("p",{children:r.address}),e.jsx("p",{children:r.support.hotline})]}),e.jsxs("div",{className:"mt-4 flex space-x-4",children:[e.jsx("a",{href:r.social.facebook,target:"_blank",rel:"noopener noreferrer",className:"text-gray-400 hover:text-brand transition-colors","aria-label":"Facebook",children:e.jsx(l,{size:20})}),e.jsx("a",{href:r.social.twitter,target:"_blank",rel:"noopener noreferrer",className:"text-gray-400 hover:text-brand transition-colors","aria-label":"Twitter",children:e.jsx(n,{size:20})}),e.jsx("a",{href:r.social.linkedin,target:"_blank",rel:"noopener noreferrer",className:"text-gray-400 hover:text-brand transition-colors","aria-label":"LinkedIn",children:e.jsx(i,{size:20})})]})]})]}),e.jsx("div",{className:"mt-12 pt-8 border-t border-gray-100 text-center",children:e.jsxs("p",{className:"text-gray-500",children:["© ",new Date().getFullYear()," ",r.name,". All rights reserved."]})})]})})}export{x as default};

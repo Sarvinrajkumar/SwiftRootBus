@@ -1,0 +1,75 @@
+import type { CrewMember, Route, Testimonial } from "@/types";
+
+export const routes: Route[] = [
+  {
+    id: 1,
+    title: "Bengaluru → Hyderabad",
+    departure: "Departs 20:45 | Majestic Terminal",
+    arrival: "Arrives 06:10 | Gachibowli ORR",
+    duration: "9h 25m • Overnight",
+    price: "From ₹1,549",
+    perks: ["Volvo multi-axle sleeper", "Live GPS link", "Hot beverages at stopover"],
+  },
+  {
+    id: 2,
+    title: "Chennai → Coimbatore",
+    departure: "Departs 22:15 | Koyambedu Metro",
+    arrival: "Arrives 05:45 | Gandhipuram",
+    duration: "7h 30m • Red-eye",
+    price: "From ₹1,199",
+    perks: ["Zero-noise suspension", "Phone charging at every seat", "Two boarding points"],
+  },
+  {
+    id: 3,
+    title: "Mysuru → Goa",
+    departure: "Departs 19:00 | Kuvempunagar",
+    arrival: "Arrives 08:20 | Madgaon",
+    duration: "13h 20m • Scenic overnight",
+    price: "From ₹1,899",
+    perks: ["Panoramic windows", "Onboard host", "Flexible rescheduling"],
+  },
+];
+
+export const crewMembers: CrewMember[] = [
+  {
+    id: 1,
+    name: "Meera Iyer",
+    role: "Head of Network Planning",
+    bio: "Designs the SwiftRoute grid so every city pair gets dependable departures and smooth transfers.",
+    image: "https://images.pexels.com/photos/3184396/pexels-photo-3184396.jpeg",
+  },
+  {
+    id: 2,
+    name: "Rahul Menon",
+    role: "Fleet Experience Lead",
+    bio: "Keeps every coach spotless, connected, and comfortable before doors open for boarding.",
+    image: "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg",
+  },
+];
+
+export const testimonials: Testimonial[] = [
+  {
+    id: 1,
+    name: "Ananya R",
+    route: "Chennai → Bengaluru",
+    content: "Boarding alerts, warm blankets, and the smoothest night ride I've taken. I woke up right as we rolled into Silk Board.",
+    rating: 5,
+    image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg",
+  },
+  {
+    id: 2,
+    name: "Mohit Verma",
+    route: "Bengaluru → Hyderabad",
+    content: "Live bus tracking plus support that actually picks up at 2 am. SwiftRoute made my weekly commute stress-free.",
+    rating: 5,
+    image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
+  },
+  {
+    id: 3,
+    name: "Sahana K",
+    route: "Mysuru → Goa",
+    content: "We booked the entire lower deck for friends. The host kept snacks coming and the recliners were unbelievably cozy.",
+    rating: 4,
+    image: "https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg",
+  },
+];

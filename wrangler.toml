@@ -1,0 +1,4 @@
+
+name = "my-astro-worker"
+main = "dist/_worker.js"
+compatibility_date = "2025-11-24"

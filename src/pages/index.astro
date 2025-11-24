@@ -1,0 +1,29 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { Hero } from "@/components/sections/hero";
+import { About } from "@/components/sections/about";
+import { Features } from "@/components/sections/features";
+import { Services } from "@/components/sections/services";
+import { Team } from "@/components/sections/team";
+import { Appointment } from "@/components/sections/appointment";
+import { ClinicHours } from "@/components/sections/clinic-hours";
+import { Testimonials } from "@/components/sections/testimonials";
+import { Contact } from "@/components/sections/contact";
+
+const title = "SwiftRoute Coaches | Bus booking made simple";
+const description =
+  "Clean sleeper coaches, live tracking, and 24/7 rider care across South India.";
+---
+
+<BaseLayout title={title} description={description}>
+  <Hero client:load />
+  <About client:load />
+  <Features client:load />
+  <Services client:load />
+  <Team client:load />
+  <Appointment client:load />
+  <ClinicHours client:load />
+  <Testimonials client:load />
+  <Contact client:load />
+</BaseLayout>
+

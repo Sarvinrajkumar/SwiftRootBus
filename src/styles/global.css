@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 215 63% 97%;
+    --foreground: 222 47% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    --primary: 216 84% 47%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 32 96% 64%;
+    --secondary-foreground: 222 47% 11%;
+    --muted: 214 32% 92%;
+    --muted-foreground: 217 15% 35%;
+    --accent: 199 94% 88%;
+    --accent-foreground: 222 47% 15%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 213 27% 84%;
+    --input: 213 27% 84%;
+    --ring: 216 84% 47%;
+    --radius: 1.1rem;
+  }
+
+  .dark {
+    --background: 220 40% 8%;
+    --foreground: 0 0% 98%;
+    --card: 220 35% 10%;
+    --card-foreground: 0 0% 98%;
+    --popover: 220 35% 10%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 212 100% 85%;
+    --primary-foreground: 220 40% 8%;
+    --secondary: 32 96% 64%;
+    --secondary-foreground: 220 40% 8%;
+    --muted: 220 30% 20%;
+    --muted-foreground: 215 20% 74%;
+    --accent: 212 40% 18%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 65% 45%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 30% 26%;
+    --input: 220 30% 26%;
+    --ring: 212 100% 85%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-cream text-charcoal;
+    font-family: 'Space Grotesk', 'Inter', sans-serif;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-semibold text-charcoal;
+  }
+}
+
+.animation-delay-300 {
+  animation-delay: 300ms;
+}
+
+.animation-delay-600 {
+  animation-delay: 600ms;
+}
+
+.animation-delay-900 {
+  animation-delay: 900ms;
+}
+
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(13, 98, 255, 0.12);
+}
+
+.section-padding {
+  @apply py-16 md:py-24;
+}
+
+.container {
+  @apply px-4 md:px-8 mx-auto max-w-6xl;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.float {
+  animation: float 4s ease-in-out infinite;
+}
+
