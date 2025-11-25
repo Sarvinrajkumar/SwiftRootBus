@@ -6,6 +6,9 @@ import cloudflare from '@astrojs/cloudflare';
 
 export default defineConfig({
   integrations: [react(), tailwind()],
-  adapter: cloudflare(),
-  output: 'server'
+  output: 'server',
+  adapter: cloudflare({
+    format: 'service-worker', // <-- key for Worker deploy
+    assets: 'dist/client',    // <-- serve static assets
+  }),
 });

@@ -1,6 +1,7 @@
 
 name = "swiftrootbus"
-main = "dist/_worker.js"   # <-- this is your Astro server output
+main = "dist/_worker.js"   # Your Astro server output
 compatibility_flags = ["nodejs_compat"]
+compatibility_date = "2025-11-25"  # <-- ADD THIS LINE
 account_id = "6c225d7b23f6ee9825b9ae4ca57afd1b"
 workers_dev = true
